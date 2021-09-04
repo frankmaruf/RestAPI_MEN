@@ -1,0 +1,26 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "It's an test purpose",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "api",
+    "restapi",
+    "node",
+    "js"
+  ],
+  "author": "Md. Abdullah Al Maruf",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12"
+  }
+}
